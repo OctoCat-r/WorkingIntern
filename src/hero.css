@@ -1,0 +1,173 @@
+.hero {
+  width: 1440px;
+  /* position: relative; */
+  height: 1417px;
+  flex-shrink: 0;
+  top: 104px;
+  border-radius: 0px 0px 20px 20px;
+  background: #275473;
+  align-items: flex-end;
+  /* position: relative;  */
+  overflow: hidden;
+}
+.something {
+  width: 921px;
+  height: 976px;
+  /* padding: auto; */
+  margin-left: 500px;
+  /* transform: rotateX(-180deg); */
+  /* motion-rotation: -180deg; */
+}
+.curve {
+  margin-top: 930px;
+  top: 1568px;
+
+  width: 342.00003051757955px;
+  height: 503.99996948242375px;
+  border-radius: 200px 200px 0px 0px;
+  transform: rotateX(180deg);
+  background: #113349;
+  float: left;
+  margin-right: 15px;
+}
+/* .curves-container {
+      display: flex;
+      align-items: flex-end; 
+    } */
+.curve1 {
+  margin-top: 820px;
+  width: 342.00003051757955px;
+  height: 600.99996948242375px;
+  border-radius: 200px 200px 0px 0px;
+  transform: rotateX(0deg); /* Remove the rotation to make it inverted */
+  background: #c5d9e6;
+  float: left; /* Float the .curve1 div to the left */
+  margin-right: 15px;
+  float: bottom;
+}
+
+.curve2 {
+  margin-top: 640px;
+  position: relative;
+  width: 342.00003051757955px;
+  height: 800.99996948242375px;
+  /* margin-top: -330px; */
+  border-radius: 200px 200px 0px 0px;
+  transform: rotateX(0deg); /* Remove the rotation to make it inverted */
+  background: rgb(234, 235, 242);
+  background: radial-gradient(
+    circle,
+    rgb(214, 216, 234) 0%,
+    rgba(17, 51, 73, 1) 40%
+  );
+  transform: rotateX(180deg);
+  float: left; /* Float the .curve1 div to the left */
+  margin-right: 15px;
+}
+.text {
+  width: 771px;
+  position: absolute;
+  height: 167px;
+  /* padding-left: 80px; */
+  /* padding-top: 30px; */
+  top: 224px;
+  left: 123px;
+  font-family: Inter;
+  font-size: 80px;
+  font-weight: 400;
+  color: aliceblue;
+  line-height: 83px;
+  letter-spacing: 0em;
+  text-align: right;
+
+  font-family: Inter;
+  font-size: 80px;
+  font-weight: 800;
+  line-height: 83px;
+  letter-spacing: 0em;
+  text-align: left;
+
+  font-family: Inter;
+  font-size: 80px;
+  font-weight: 700;
+  line-height: 83px;
+  letter-spacing: 0em;
+  text-align: left;
+
+  font-family: Poppins;
+  font-size: 80px;
+  font-weight: 600;
+  line-height: 83px;
+  letter-spacing: 0em;
+  text-align: left;
+}
+.smaller-text {
+  position: absolute;
+  width: 434px;
+  height: 77px;
+  top: 421px;
+  left: 123px;
+  color: aliceblue;
+  font-family: Inter;
+  font-size: 64px;
+  font-weight: 900;
+  line-height: 77px;
+  letter-spacing: 0em;
+  text-align: justified;
+
+  font-family: Inter;
+  font-size: 40px;
+  font-weight: 500;
+  line-height: 48px;
+  letter-spacing: 0em;
+  text-align: justified;
+}
+.smallest-text {
+  position: absolute;
+  width: 771px;
+  height: 185px;
+  top: 511px;
+  left: 123px;
+  color: aliceblue;
+  font-family: Inter;
+  font-size: 24px;
+  font-weight: 300;
+  line-height: 29px;
+  letter-spacing: 0em;
+  text-align: justified;
+}
+.span {
+  color: #feb656;
+}
+.training {
+  position: absolute;
+  width: 203px;
+  height: 60px;
+  box-shadow: 0px 4px 4px 0px #275473;
+  top: 725px;
+  color: #feb656;
+  left: 120px;
+  padding: 18px 39.5px 18px 39.5px;
+  border-radius: 15px;
+  gap: 10px;
+}
+.curve3 {
+  /* position: absolute; */
+  margin-top: 220px;
+  width: 342.00003051757955px;
+  height: 1200.99996948242375px;
+  border-radius: 200px 200px 0px 0px;
+  transform: rotateX(0deg); /* Remove the rotation to make it inverted */
+  background: #c5d9e6;
+  float: left; /* Float the .curve1 div to the left */
+  /* margin-right: 15px; */
+  float: bottom;
+}
+.right-image {
+  position: absolute;
+  margin-top: 540px;
+  top: 0;
+  right: 30px;
+  height: 976px; /* Set the image height to fill the container */
+  object-fit: cover; /* Preserve the image's aspect ratio while covering the container */
+}

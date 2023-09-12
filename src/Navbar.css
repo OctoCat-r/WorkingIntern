@@ -1,0 +1,125 @@
+/* src/Navbar.css */
+.navbar {
+  width: 1441px;
+  height: 104px;
+  flex-shrink: 0;
+  background: #fff;
+  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+  left: -1px;
+  align-items: center;
+}
+
+.logo {
+  width: 117px;
+  height: 92px;
+  top: 15px;
+  margin-left: 34px;
+}
+
+.search-bar {
+  width: 216px;
+  /* width: 50%; */
+  max-width: 300px;
+  height: 46px;
+  flex-shrink: 0;
+  border-radius: 30px;
+  background: #fff;
+  box-shadow: 0px 4px 4px 0px #275473;
+  margin-top: -62px;
+  /* right: inherit; */
+  margin-left: 237px;
+}
+.search {
+  width: 54px;
+  height: 19px;
+  /* margin-top: 13px; */
+  margin-left: 10px;
+  padding-top: 17px;
+  font-family: Inter;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 19px;
+  letter-spacing: 0em;
+  text-align: center;
+}
+
+.icons {
+  display: flex;
+  gap: 105px;
+  width: 20.125px;
+  height: 18.407405853271484px;
+  margin-top: -45px;
+  margin-left: 800px;
+  border: 2.5px;
+}
+.icon {
+  width: 2.125px;
+  height: 18.407px;
+  flex-shrink: 0;
+  fill: #feb656;
+  stroke-width: 2.5px;
+  stroke: #feb656;
+}
+
+
+
+.home {
+  color: #feb656;
+  text-align: center;
+  font-family: Lato;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 900;
+  line-height: normal;
+  margin-left: -14px;
+}
+.events {
+  color: #275473;
+  text-align: left;
+  font-family: Lato;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  margin-left: -14px;
+}
+.about {
+  color: #275473;
+  text-align: left;
+  font-family: Lato;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  margin-left: -11px;
+}
+.contact {
+  color: #275473;
+  text-align: left;
+  font-family: Lato;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  margin-left: -17px;
+}
+.testimonals {
+  color: #275473;
+  text-align: left;
+  font-family: Lato;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  margin-left: -34px;
+}
+.mentorship {
+  color: #275473;
+  text-align: left;
+  font-family: Lato;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  margin-left: -30px;
+}
